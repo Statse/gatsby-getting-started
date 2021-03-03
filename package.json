@@ -19,5 +19,15 @@
     "gatsby": "^3.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
-  }
+  },
+  "main": "gatsby-config.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Statse/gatsby-getting-started.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Statse/gatsby-getting-started/issues"
+  },
+  "homepage": "https://github.com/Statse/gatsby-getting-started#readme"
 }
