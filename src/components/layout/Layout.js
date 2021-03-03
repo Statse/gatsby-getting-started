@@ -9,7 +9,6 @@ const layout = ({children, pageTitle}) => {
     return (
       <main>
         <title className={center}>{pageTitle}</title>
-        <h1 className={center}>{pageTitle}</h1>
         <nav>
           <ul className={navBar}>
             <li className={navItem}><Link to="/">Home page</Link></li>
