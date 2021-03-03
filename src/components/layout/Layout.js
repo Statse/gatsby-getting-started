@@ -2,7 +2,7 @@ import * as React from "react"
 
 import {Link} from 'gatsby'
 
-import {navBar, navItem, center} from './layout.module.css'
+import {navBar, navItem, center, contentWrapper} from './layout.module.css'
 
 // markup
 const layout = ({children, pageTitle}) => {
@@ -16,7 +16,7 @@ const layout = ({children, pageTitle}) => {
             <li className={navItem}><Link to="/about">About page</Link></li>
           </ul>
         </nav>
-        <div className={navBar}>
+        <div className={contentWrapper}>
           {children}
         </div>
       </main>
